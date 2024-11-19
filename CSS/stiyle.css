@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    background: #ecf0f1;
+    
+}
+
+
+header {
+    position: relative;
+    width: 600px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color:#566573;
+    font-weight: bold;
+    border-bottom: 1px solid #566573 ;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#calculadora {
+    position: relative;
+    margin: 20px auto;
+    width: 400px;
+    height: 615px;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    background: #566573;
+    box-shadow: 20px 40px 15px #2c3e50;
+    
+ 
+}
+
+
+#operaciones {
+    position: relative;
+    margin: 20px auto;
+    width: 70%;
+    background:white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #999;
+    padding: 10%;
+    text-align: right;
+    font-size: 45px;
+    overflow: hidden;
+    height:40px
+    
+}
+
+
+#calculadora ul {
+   margin-left: 5px;
+}
+
+
+#calculadora ul li {
+    float: left;
+    padding: 32px;
+    width: 15px;
+    text-align:center;
+    margin: 8px;
+    background: whitesmoke;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    box-shadow: 3px 9px 5px 3px #C0C0C0;
+    font-weight: bold;
+    cursor:pointer;
+    height: 8px;
+    font-size: xx-large;
+   border: none;
+  
+   
+
+    
+}
+
+
+#calculadora ul li:hover {
+    background: rgb(181, 210, 230);
+    color: white;
+  
+}
+
+
+#calculadora ul li:active {
+    background: rgb(119, 223, 226);
+    color: white;
+    
+}
+
+
+#borrar {
+    position: absolute;
+    bottom: 10px;
+    padding: 5px 15px;
+    width: 40px;
+    height: 40px;
+    background: rgb(197, 121, 6);
+    border-radius: 10px;
+    left: 150px;
+    border: 2px solid #bbb;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+padding-top: 25px ;
+box-shadow: 3px 9px 5px 3px #C0C0C0;
+margin-top: 10px;
+margin-bottom: 10px;
+font-size: x-large;
+}
+
+
+#borrar:hover {
+    background:  #12e00b;
+}
+
+
+#borrar:active {
+    background: rgb(181, 210, 230);;
+}
+
+
+.li{
+
+    background: #266EC0  !important;
+    color: white  !important;
+    font-size:40px !important;
+}
+
+.li:hover {
+    background: rgb(181, 210, 230) !important;
+    color: white;
+}
+.li:active {
+    background: #2980b9 !important;
+}
+
+.igual{
+    background: #864144  !important;
+    color: white  !important;
+    font-size:40px !important;
+}
+
+.igual:hover{
+    
+    background: #3d4e6d  !important;
+}
